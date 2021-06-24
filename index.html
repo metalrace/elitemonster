@@ -1,22 +1,22 @@
 <html>
 
 <head>
-<metal charset="utf-8">
-<title> <h1>엘리트 몬스터 - (Elite Monster)</h1> </title>
+<meta charset="utf-8">
+<title> Elite Monster </title>
 </head>
 
 <body>
   <img src="./img/img_메인화면1.jpg" width="40%">
   <ol>
     <h3>새소식</h3>
-    <li><a href="./news/event.html" target="_blank">공지사항</a></li>
-    <li><a href="./news/news.html">업데이트</a></li>
-    <li><a href="./news/notice.html">이벤트</a></li>
-    <li><a href="./news/update.html">엘몬 소식</a></li>
+    <li>공지사항</a></li>
+    <li>업데이트</a></li>
+    <li>이벤트</a></li>
+    <li>엘몬 소식</a></li>
   </ol>
   <ol>
     <h3>게임소개</h3>
-    <li>세계관</li>
+    <li><a href="./introduction/worldview.html" target="_blank">세계관</a></li>
     <li>월드맵</li>
     <li>클래스</li>
     <li>컨텐츠</li>
@@ -49,11 +49,52 @@
     <li>보안서비스</li>
     <li>Movie</li>
   </ul>
-
-  //<br>한줄 띄우기
-  //<p>새로운 단락 만들기. 단락이라는 의미를 가진다.</p>
-  // p랑 br을 비교하면 br은 한줄만 쓰면 되고, p는 단락적으로 앞부터 뒤까지 지정해주는 것이
-  <p style="margin-top:45px;">HTML로 소개합니다.</p>
+  <p style="margin-top:45px;">동영상</p>
+  <p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3UM-GNf4VMw"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0BPW6ufxg60"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  </p>
+  <p>
+    <!--disqus덧글-->
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://elite-monster.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </p>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/60d43e4865b7290ac637a51f/1f8uh6jhp';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>
