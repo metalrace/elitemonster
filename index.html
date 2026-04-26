@@ -1,109 +1,140 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-<meta charset="utf-8">
-<title> Elite Monster </title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-74THLJBYWG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-74THLJBYWG');
-</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이학진 | Game Designer Portfolio</title>
+<meta name="description" content="이학진 게임 기획자 포트폴리오 — 전투 · 시스템 · 컨텐츠 · 밸런스 설계">
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <img src="./img/img_메인화면1.jpg" width="40%">
-  <ol>
-    <h3>새소식</h3>
-    <li>공지사항</a></li>
-    <li>업데이트</a></li>
-    <li>이벤트</a></li>
-    <li>엘몬 소식</a></li>
-  </ol>
-  <ol>
-    <h3>게임소개</h3>
-    <li><a href="./introduction/worldview.html" target="_blank">세계관</a></li>
-    <li>월드맵</li>
-    <li>클래스</li>
-    <li>컨텐츠</li>
-  </ol>
-  <ol>
-    <h3>게임정보</h3>
-    <li>전투</li>
-    <li>몬스터</li>
-    <li>게임 특징</li>
-    <li>게임 가이드</li>
-  </ol>
-  <ol>
-    <h3>커뮤니티</h3>
-    <li>자유</li>
-    <li>서버</li>
-    <li>엘몬</li>
-    <li>길드</li>
-  </ol>
-  <ol>
-    <h3>다운로드</h3>
-    <li>클라이언트</li>
-    <li>OST</li>
-    <li>Art</li>
-    <li>Movie</li>
-  </ol>
-  <ul>
-    <h3>고객센터</h3>
-    <li>FAQ</li>
-    <li>신고센터</li>
-    <li>보안서비스</li>
-    <li>Movie</li>
-  </ul>
-  <p style="margin-top:45px;">동영상</p>
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3UM-GNf4VMw"
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-    clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0BPW6ufxg60"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  </p>
-  <p>
-    <!--disqus덧글-->
-    <div id="disqus_thread"></div>
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://elite-monster.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </p>
-  <!-- twak 채팅기능 추가
-    <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/60d43e4865b7290ac637a51f/1f8uh6jhp';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-  -->
-</body>
 
+<nav class="topnav">
+  <div class="topnav-inner">
+    <div class="brand">LEE HAK JIN<span class="accent"> · </span>Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">HOME</a></li>
+      <li><a href="career.html">CAREER</a></li>
+      <li><a href="projects.html">PROJECTS</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="eyebrow">GAME DESIGN PORTFOLIO</div>
+  <h1><span class="name">LEE HAK JIN</span></h1>
+  <p class="tagline">Game Designer · 8년차</p>
+  <p class="meta">
+    <span>전투 기획</span>
+    <span>시스템 기획</span>
+    <span>컨텐츠 기획</span>
+    <span>밸런스 설계</span>
+  </p>
+</header>
+
+<main class="container">
+
+  <!-- 00. Table of Contents -->
+  <section class="section">
+    <div class="section-num">00 — TABLE OF CONTENTS</div>
+    <h2 class="section-title">목차</h2>
+    <p class="section-sub">아래 항목을 클릭하시면 상세 페이지로 이동합니다.</p>
+
+    <div class="toc-grid">
+      <a class="toc-card" href="career.html">
+        <span class="num">01</span>
+        <h3>CAREER</h3>
+        <p>위메이드 · 넥슨게임즈 · 올엠 — 재직 중 수행한 프로젝트와 주요 성과를 정리한 경력 페이지입니다.</p>
+        <span class="arrow">View Career →</span>
+      </a>
+      <a class="toc-card" href="projects.html">
+        <span class="num">02</span>
+        <h3>PROJECTS</h3>
+        <p>개인 작업물 — 자체 개발 IP <strong>엘리트 몬스터(Elite Monster)</strong>의 기획 자료를 모은 페이지입니다.</p>
+        <span class="arrow">View Projects →</span>
+      </a>
+      <a class="toc-card" href="mailto:sizeofme@naver.com">
+        <span class="num">03</span>
+        <h3>CONTACT</h3>
+        <p>제안 · 협업 · 채용 문의는 이메일로 연락 주시면 빠르게 회신드리겠습니다.</p>
+        <span class="arrow">sizeofme@naver.com →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 01. Profile Summary -->
+  <section class="section">
+    <div class="section-num">01 — PROFILE</div>
+    <h2 class="section-title">간단 프로필</h2>
+    <p class="section-sub">2018년부터 2026년까지, 8년간 게임 기획자로 활동해왔습니다.</p>
+
+    <div class="tl-body">
+      <h4>전문 분야</h4>
+      <ul>
+        <li>전투 시스템 설계 · PvE / PvP / 레이드 / 길드전</li>
+        <li>시스템 기획 · BM 설계 · 라이브 운영 기획</li>
+        <li>밸런스 설계 · 시뮬레이션 검증</li>
+        <li>컨텐츠 기획 · 시즌 / 업데이트 단위 디자인</li>
+      </ul>
+
+      <h4>경력 비중</h4>
+      <ul>
+        <li>위메이드 (WeMade) · 40% — 레전드 오브 이미르</li>
+        <li>넥슨게임즈 (NexonGames) · 35% — V4</li>
+        <li>올엠 (Allm) · 25% — 크리티카</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 02. Skills -->
+  <section class="section">
+    <div class="section-num">02 — SKILLS</div>
+    <h2 class="section-title">기술 스택 & 도구</h2>
+
+    <div class="skills-group">
+      <div class="label">Engine & Language</div>
+      <div class="pill-row">
+        <span class="pill">Unreal Engine</span>
+        <span class="pill">Lua</span>
+        <span class="pill">XML</span>
+        <span class="pill">Python</span>
+        <span class="pill">C / C++</span>
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <div class="label">Collaboration & Tracking</div>
+      <div class="pill-row">
+        <span class="pill">JIRA</span>
+        <span class="pill">RedMine</span>
+        <span class="pill">BMS</span>
+        <span class="pill">TPAD</span>
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <div class="label">Version Control</div>
+      <div class="pill-row">
+        <span class="pill">SVN</span>
+        <span class="pill">Perforce</span>
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <div class="label">AI Tools</div>
+      <div class="pill-row">
+        <span class="pill">Claude AI</span>
+        <span class="pill">Gemini</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p class="contact">CONTACT · <a href="mailto:sizeofme@naver.com">sizeofme@naver.com</a></p>
+  <p>© 2026 Lee Hak Jin · Game Designer Portfolio</p>
+</footer>
+
+</body>
 </html>
